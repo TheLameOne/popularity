@@ -1,8 +1,8 @@
 import instaloader
 import sqlite3
 L = instaloader.Instaloader()
-USER = "ganjediiiii"
-PASSWORD = "harshvansh"
+USER = ""
+PASSWORD = ""
 L.login(USER, PASSWORD)
 conn = sqlite3.connect('data.sqlite')
 cur = conn.cursor()
