@@ -6,7 +6,9 @@ const colors = {
     css: '#1C88C7',
     js: '#FCC700'
 };
-
+Array.prototype.random = function () {
+    return this[Math.floor((Math.random()*this.length))];
+  }
 const generateChart = data => {
     const bubble = data => d3.pack()
         .size([width, height])
@@ -25,7 +27,7 @@ const generateChart = data => {
         .attr('transform', `translate(${width / 10}, ${height / 10})`);
     
     const circle = node.append('circle')
-        .style('fill', d => colors.js)
+        .style('fill', d => ([colors.html,colors.css,colors.js].random()))
         .on('mouseover', function (e, d) {
             tooltip.style('visibility', 'invisible');
         })
