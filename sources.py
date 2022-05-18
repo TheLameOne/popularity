@@ -2,8 +2,8 @@ import instaloader
 s = "abes"
 L = instaloader.Instaloader()
 
-USER = "ganjediiiii"
-PASSWORD = "harshvansh"
+USER = ""
+PASSWORD = ""
 L.login(USER, PASSWORD)
 
 search = instaloader.TopSearchResults(L.context, s)
