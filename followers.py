@@ -9,7 +9,10 @@ data = cur.fetchall()
 count = 0
 for i in data:
    username = i[0]
-   profile = instaloader.Profile.from_username(L.context, username)
+   try:
+       profile = instaloader.Profile.from_username(L.context, username)
+   except:
+       continue
    followers = profile.followers
    cur.execute('UPDATE account SET followers = ? WHERE username = ?',(followers,username))
    print("Updated followers for {} : {}".format(username,followers))

@@ -22,7 +22,7 @@ const generateChart = data => {
     const node = svg.selectAll()
         .data(root.children)
         .enter().append('g')
-        .attr('transform', `translate(${width / 2}, ${height / 2})`);
+        .attr('transform', `translate(${width / 10}, ${height / 10})`);
     
     const circle = node.append('circle')
         .style('fill', d => colors.js)
