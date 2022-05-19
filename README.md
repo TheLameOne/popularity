@@ -1,14 +1,11 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">popularity</h3>
 
   <p align="center">
-    Instagram Followers visualizer for an Institution/Organization/Community
+    Instagram Followers visualizer for an Institution/Organization/Community.
 </div>
 
 
@@ -21,10 +18,8 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
     </li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
   </ol>
 </details>
 
