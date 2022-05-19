@@ -1,8 +1,8 @@
 import instaloader
 import sqlite3
 L = instaloader.Instaloader()
-USER = ""
-PASSWORD = ""
+USER = "ganjediiiii"
+PASSWORD = "harshvansh"
 L.login(USER, PASSWORD)
 conn = sqlite3.connect('data.sqlite')
 cur = conn.cursor()
@@ -31,7 +31,7 @@ cur = conn.cursor()
 #         continue
 # fetched.close()
 
-i = 'abes_ec_confessions '
+i = 'abes_writings '
 
 if(i == 'end'):
     print("all accounts already fetched")

@@ -29,7 +29,10 @@ const generateChart = data => {
     const circle = node.append('circle')
         .style('fill', d => ([colors.html,colors.css,colors.js].random()))
         .on('mouseover', function (e, d) {
-            tooltip.style('visibility', 'invisible');
+            tooltip.select('a').attr('href', d.data.username).text(d.data.username);
+            tooltip.style('visibility', 'visible');
+            d3.select(this).style('stroke', '#222');
+
         })
         .on('mousemove', e => tooltip.style('top', `${e.pageY}px`)
                                      .style('left', `${e.pageX + 10}px`))
@@ -37,7 +40,7 @@ const generateChart = data => {
             d3.select(this).style('stroke', 'none');
             return tooltip.style('visibility', 'hidden');
         })
-        .on('click', (e, d) => window.open(d.data.link));
+        .on('click', (e, d) => window.open("https://www.instagram.com/"+d.data.username));
     
     const label = node.append('text')
         .attr('dy', 2)

@@ -8,7 +8,7 @@ def get_all_users( json_str = False ):
     db = conn.cursor()
 
     rows = db.execute('''
-    SELECT * from account where trust > 1 order by followers desc
+    SELECT * from account where trust > 1 and followers > 0 order by followers desc
     ''').fetchall()
 
     conn.commit()

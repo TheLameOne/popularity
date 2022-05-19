@@ -8,10 +8,9 @@ abesecconfession
 abes_ec_confessions
 abesecmechanicalengineering
 abes_bhasad
-abes_ka_baap__aya
 abesroastfarewell
 abesec.codechef
-abes.shayari
+samvaadwithus
 abes.memes
 abes_writings
 abesec.litsoc
@@ -22,4 +21,3 @@ abesec2021_2025
 abesec_official_
 abeseckamazak
 abescsmemes
-end

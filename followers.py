@@ -14,7 +14,10 @@ for i in data:
    except:
        continue
    followers = profile.followers
-   cur.execute('UPDATE account SET followers = ? WHERE username = ?',(followers,username))
+   if(followers == 0):
+       cur.execute('UPDATE account SET followers = ? WHERE username = ?',(-1,username))
+   else:
+       cur.execute('UPDATE account SET followers = ? WHERE username = ?',(followers,username))
    print("Updated followers for {} : {}".format(username,followers))
    count += 1
    if(count%10 == 0):

@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
 body {
+
     margin: 0;
     width: 100vw;
     height: 100vh;  
@@ -6,7 +8,7 @@ body {
 
 text {
     text-anchor: middle;
-    font: 10px sans-serif;
+    font: 9px sans-serif;
     pointer-events: none;
     opacity: 0;
 }
@@ -15,12 +17,9 @@ circle {
     cursor: pointer;
 }
 
-img {
-    width: 200px;
-}
 
 a {
-    color: #FFF;
+    color: #000;
     font-weight: bold;
     display: block;
 }
@@ -38,15 +37,22 @@ span {
 .css  { background: #1C88C7; }
 .js   { background: #FCC700; }
 
-.tooltip {
+/* .tooltip {
     position: absolute;
     visibility: hidden;
-    background-color: #111;
+    background-color: rgb(255, 255, 255);
+
     display: flex;
     font-family: sans-serif;
-    max-width: 500px;
-}
-
-.tooltip div {
-    padding: 10px;
-}
+    max-width: 200px;
+} */
+.tooltip {
+    position: absolute;
+    background: white;
+    padding: 5px 12px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 30px;
+    color: black;
+    visibility: visible;
+  }
