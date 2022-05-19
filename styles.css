@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
+
+/* font-family: 'Niconne', cursive; */
+#heading {
+    font-family: 'Niconne', cursive;
+    font-size: 50px;
+    color: #1C88C7;
+    text-shadow: 
+      3px 3px #F16529, 
+      6px 6px #FCC700, 
+      9px 9px 10px #1C88C7;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
 body {
 
     margin: 0;
     width: 100vw;
-    height: 100vh;  
+    height: 100vh;
 }
 
 text {
@@ -33,9 +48,17 @@ span {
     font-size: 14px;
 }
 
-.html { background: #F16529; }
-.css  { background: #1C88C7; }
-.js   { background: #FCC700; }
+.html {
+    background: #F16529;
+}
+
+.css {
+    background: #1C88C7;
+}
+
+.js {
+    background: #FCC700;
+}
 
 /* .tooltip {
     position: absolute;
@@ -55,4 +78,4 @@ span {
     border-radius: 30px;
     color: black;
     visibility: visible;
-  }
+}
