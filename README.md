@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Popularity][product-screenshot]](https://user-images.githubusercontent.com/53353745/169222461-03d3ee64-3af7-47fc-8b56-b602213d9a12.png)
+<img src="images/screenshot.png" alt="ss" width="200" height="200">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -48,11 +48,11 @@
 ### Built With
 
 * [Instaloader](https://github.com/instaloader/instaloader)
-* [Python]
-* [HTML]
-* [CSS]
-* [JavaScript]
-* [SQlite]
+* Python
+* HTML
+* CSS
+* JavaScript
+* SQlite
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
