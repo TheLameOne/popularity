@@ -30,6 +30,7 @@ const generateChart = data => {
         .style('fill', d => ([colors.html,colors.css,colors.js].random()))
         .on('mouseover', function (e, d) {
             tooltip.select('a').attr('href', d.data.username).text(d.data.username);
+            tooltip.select('span').text(d.data.followers);
             tooltip.style('visibility', 'visible');
             d3.select(this).style('stroke', '#222');
 
