@@ -62,10 +62,11 @@
 ## Getting Started
 
 This project scrapes Instagram user followers.
-## file1
-## file2
-## file3
-## file4
+### Sources.py 
+It makes a text file containing all the similar accounts of the target Institution 
+### file2
+### file3
+### file4
 
 ### Prerequisites
 
