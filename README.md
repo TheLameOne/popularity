@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/screenshot.png" alt="ss" width="200" height="200">
+<img src="images/screenshot.png" alt="ss" width="800" height="800">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
